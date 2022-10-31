@@ -121,7 +121,7 @@ export const HomePage = () => {
                         <Legend>Destinos de Interesse</Legend>
                         <CreatableSelect
                             components={animatedComponents}
-                            placeholder="Select an individual"
+                            placeholder="Selecione um ou mais Países"
                             options={options}
                             isMulti
                             noOptionsMessage={() => "name not found"}
@@ -129,7 +129,7 @@ export const HomePage = () => {
                         ></CreatableSelect>
                         <CreatableSelect
                             components={animatedComponents}
-                            placeholder="Select an individual"
+                            placeholder="Selecione uma ou mais Cidadesl"
                             options={options2}
                             isMulti
                             noOptionsMessage={() => "name not found"}
